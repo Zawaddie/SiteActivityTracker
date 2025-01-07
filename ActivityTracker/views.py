@@ -355,7 +355,7 @@ def pay(request):
             "PhoneNumber": phone,
             # this should be a public url maybe from the hosted site or ngrok etc
             "CallBackURL":MpesaC2bCredential.callback_url,
-            "AccountReference": "Mercy Saline",
+            "AccountReference": "XXXXXXXXXX",
             "TransactionDesc": "Site Report Charges"
         }
         # response = requests.post(api_url, json=request, headers=headers)
